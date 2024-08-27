@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 def dibuja():
 	print(".........9.........")
 	print("........898........")

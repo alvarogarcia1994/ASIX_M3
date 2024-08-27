@@ -11,4 +11,6 @@ def subrutina():
 
 a = 4
 subrutina()
-print(a
+print(a)
+
+#Respuesta el programa falla en la linea 7

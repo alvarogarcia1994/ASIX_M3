@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 def saldo(dinero):
 	billete_500 = dinero//500
 	sobra = dinero - 500 * billete_500

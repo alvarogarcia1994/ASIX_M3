@@ -1,6 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
- 
+
 intro = int(input("Introduce un número mayor que 0: "))
 
 def cuadrado():

@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 def a_sec(horas, minutos, segundos):
 	horas = horas * 3600
 	minutos = minutos * 60

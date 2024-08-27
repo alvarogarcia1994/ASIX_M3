@@ -3,4 +3,4 @@
 #variables
 
 h = range(1, 51)
-print sum(h) 
+print(h) 

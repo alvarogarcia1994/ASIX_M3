@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 def triangulo(intro):
 	if intro > 0:
 		for a in range(0, intro, 1):

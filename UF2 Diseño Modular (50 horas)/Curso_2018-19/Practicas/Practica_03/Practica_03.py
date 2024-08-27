@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 Lista = []	 
 
 def buscar_nota(Lista):

@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 def factor(numA, numB, numC, numD):
 	A = numA*numB
 	B = numA*numC

@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-#-*- coding: utf-8 -*-
-
-
-
 def numerets():
     l11 = []
     for i in range(intro):

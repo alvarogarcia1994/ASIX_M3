@@ -26,7 +26,6 @@ matriu = [	[0, 0, 0, 0],
 
 
 for i in range(0,4):
-	
 	for x in range(0,4):
 		matriu[i][x]= random.randrange(10);
 		

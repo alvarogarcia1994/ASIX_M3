@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 def de_seg(sec):
 	horas = int(sec/3600)
 	minutos = int((sec-(horas*3600))/60)

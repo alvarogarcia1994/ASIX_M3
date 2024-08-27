@@ -6,10 +6,10 @@ def detectaLletra(text,caracter,enter):
     for a in range(0,len(text)):
         if caracter in text[a]:
             contador += 1
-            if contador == enter:
-                return True
-            else:
-                return False
+    if contador == enter:
+        return True
+    else:
+        return False
 
 
 #Variables

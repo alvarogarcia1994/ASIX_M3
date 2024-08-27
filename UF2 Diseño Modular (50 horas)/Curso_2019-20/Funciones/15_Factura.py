@@ -21,5 +21,6 @@ print(matriu_plena)
 
 sumatori = 0
 for i in range(comanda):
-    sumatori=sumatori+matriu[i][i+1]
-    matriu[comanda+1][4]=sumatori
+    sumatori=sumatori+matriu[i][3]
+    matriu[comanda][3]=sumatori
+print("La suma es: ", sumatori)

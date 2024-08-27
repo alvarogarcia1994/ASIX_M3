@@ -7,26 +7,21 @@ def entrar_tel_pers(Contactes):
      Contactes.append((num,pers))
 
 def cercar_tel_pers(Contactes):
-    pers = str(input("Persona: "))
-    num = int
-    for contacte in Contactes:
-        if contacte[1] == pers:
-            print("Aquest contacte té aquest número: ", contacte[0])
-        else:
-            print("ERROR!")
-    return pers
-    Contactes = []
+    persona = str(input("Persona: "))
+    for num, pers in Contactes:
+        if pers == persona:
+            print("Aquest contacte té aquest número: ", num)
+            return
+    print("ERROR!")
 
 def cercar_pers_tel(Contactes):
-    num = int(input("Numero: "))
-    pers = str
-    for contacte in Contactes:
-        if contacte[0] == num:
-            print("Aquest contacte té aquest número: ", contacte[1])
-        else:
-            print("ERROR!")
-    return num
-    Contactes = []
+    numero = int(input("Numero: "))
+    for num, pers in Contactes:
+        if num == numero:
+            print("Aquest telèfon pertany a aquest contacte: ", pers)
+            return
+    print("ERROR!")
+
 
 def esborrar(Contactes, pos):
     Contactes.pop(pos)

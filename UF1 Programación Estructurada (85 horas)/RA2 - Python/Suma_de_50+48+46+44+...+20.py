@@ -8,4 +8,4 @@ h = 0
 while n >= 20:
 	h +=n
 	n -=2
-print h
+print(h)

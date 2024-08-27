@@ -6,4 +6,4 @@ h = ''
 while n >= 20:
 	h += ' %i' % n
 	n -= 5
-print h
+print(h)

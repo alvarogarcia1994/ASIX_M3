@@ -22,5 +22,3 @@ while num != 9999 :
 	print ("Introduce otro número:")
 	num = int(input())
 print ("Fin del programa")
-
-#Primer he definit el número com enter, després he posat un bucle while per 

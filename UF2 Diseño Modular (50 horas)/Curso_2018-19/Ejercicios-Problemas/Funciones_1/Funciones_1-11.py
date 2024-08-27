@@ -14,3 +14,5 @@ def subrutina():
 a = 3
 subrutina()
 print(a)
+
+#El programa escribe tres veces el número 5 (5, 5, 5)
